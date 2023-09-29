@@ -1,0 +1,92 @@
+/* body{
+    background-image:  url('mhw_body.jpg');
+    background-size:cover;  // Was useful to make the image in the background fit normally.
+} */
+body{
+  padding:0;
+  margin:0;
+  background-color: bisque;
+}
+.header-container{
+    background-color:rgb(96, 96, 96);
+    width:100%;
+    text-align: center;
+    margin-top:0%;
+    padding:0.1%;
+    color:orange;
+    
+}
+.header{
+  text-align: center;
+  font-size: 100%;
+}
+.banner{
+  background-color: black;
+  text-align: center;
+  font-size: 23px;
+  padding:1%;
+  
+}
+.images{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+.images img:nth-of-type(n){
+  width: 20%;
+  height:auto;
+  padding:0.1%;
+}
+.wrapper{
+  padding-left: 6%;
+  padding-right:6%;
+  padding-bottom:4%;
+
+}
+.immersion{
+  display:flex;
+  justify-content: center;
+}
+.immersion img{
+  width: 50%;
+}
+.quality{
+    display: flex;
+    justify-content:center;
+}
+.quality img{
+  width: 30%;
+  padding:0.4%;
+}
+.weapons{
+  display: flex;
+  justify-content: center;
+}
+.weapons img{
+  width:30%;
+  padding:0.4%;
+}
+.multiplayer{
+  display:flex;
+  justify-content: center;
+}
+.multiplayer img{
+  width:30%;
+  padding:0.4%;
+}
+p{
+  font-size: 17px;
+}
+.recommended_videos{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.recommended_videos > div{
+  width: calc(33.33% - 15px);
+  margin-bottom: 1%;
+}
+.video iframe{
+  width:100%;
+
+}
